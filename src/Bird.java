@@ -25,4 +25,7 @@ public class Bird {
     public String toString() {
         return String.format(" Bird{height=%.2f, weight=%.2f, wingspan=%.2f}", height, weight, wingspan);
     }
+    void fly(){
+        System.out.println(" Bird flapping its wings and flying!");
+    }
 }
